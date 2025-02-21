@@ -146,7 +146,6 @@ function generateMenuHTML() {
                                 <p class="text-gray-600 text-sm mb-4">${item.description}</p>
                             ` : ''}
                             <div class="flex justify-between items-center">
-                                <span class="text-primary font-bold text-lg">${item.price.toFixed(2)} ريال</span>
                                 ${item.calories ? `
                                     <span class="text-sm text-gray-500">${item.calories} سعرة حرارية</span>
                                 ` : ''}
